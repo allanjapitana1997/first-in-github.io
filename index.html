@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF" />
+<meta name="viewport" content="width=device-width; initail-scale=1.0">
+<title></title>
+<style type="text/css">
+body{
+background-color:silver;
+font-family: "Times New Roman", Times, serif;
+}
+.note h3{
+text-align:justify;
+width:100%;
+height:100%;
+text-indent:30px;
+font-size:15px;
+}
+section{
+padding:10px 10px 10px 10px;
+}
+#welcome{
+text-align:center;
+}
+.pro a{
+text-align:center;
+background-color:silver;
+font-size:30px;
+text-decoration:none;
+border-radius:10px;
+color:black;
+font-weight:bold;
+font-variant:small-caps;
+}
+
+@media screen and (max-width: 600px){
+body{
+background-color:lightBlue;
+}
+ .pro a {
+ font-size:40px;
+text-align:center;
+padding:0 50px 0 0;
+width:100%;
+}
+}
+</style>
+</head>
+<body>
+<section>
+<h1 id="welcome"></h1>
+
+<script type="text/javascript">
+var costumerName =prompt("Please enter your name", "");
+if (costumerName !=null){
+document.getElementById("welcome").innerHTML =
+"Hello!  " + costumerName + ", how are you today?";
+}
+
+$(document).ready(function (){
+$(costumerName).click(function(event){
+event.preventDefault();
+});
+});
+</script>
+
+<div class="note"><h3>Before you proceed please read this carefully some of the 
+element not function well, and please use mobile phone to better experience 
+cause this is not fully responsive website/webpages.</h3></div>
+
+<div class="note"> <h3>The reason why, that this is not a full responsive it's because 
+I only use mobile phone to build this. I can't test it in defferent screen size during development. </h3></div>
+
+
+<div class="note"><h3> I will expect your understanding. Sorry for
+ the inconvenience, any feedback will appriecated and please send your
+  feedback to my provided email. Thank you!</h3></div>
+
+<div class="pro"> <a href="index3.html">Proceed...</a></div>
+
+</section>
+</body>
+</html>
