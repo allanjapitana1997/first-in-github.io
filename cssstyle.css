@@ -1,0 +1,196 @@
+.container{
+margin:0 auto;
+padding:5px 20px 5px 20px;
+max-width:900px;
+}
+.container cite:nth-child(2){
+float:right;
+}
+.container cite:nth-child(1){
+float:left;
+}
+header{
+text-align:center;
+}
+.container h1 {
+font-style:cursive;
+font-size:48px;
+margin:0 0 16px 0;
+}
+
+h2{
+font-style:Serif;
+font-weight:300;
+font-size:24px;
+margin:0 0 16px 0;
+}
+.btn{
+display:inline-block;
+color:white;
+font-weight:500;
+font-size:20px;
+background:#549DA0;
+border:none;
+border-radius:5px;
+padding:12px 16px;
+cursor:pointer;
+}
+.btn:hover{
+background:#468486;
+}
+
+.features{
+width:32%;
+display:inline-block;
+font-size:16px;
+}
+.fetures img{
+width:10%;
+display:inline-block;
+height:10%;
+border-radius:5px;
+}
+blockqoute {
+margin:0;
+padding:0;
+text-align:center;
+}
+blockqoute p{
+margin:0 0 5px 0;
+font-size:24px;
+}
+blockqoute cite{
+font-size:16px;
+font-style:Italic;
+}
+
+footer{
+opacity:0.6;
+background:#353535;
+padding:32px 0;
+text-align:center;
+color:#868686;
+font-size:12px;
+border-radius:10px;
+}
+footer ul{
+margin:0;
+padding:0;
+list-style:none;
+}
+footer li a{
+padding:6px 0 5px 0;
+font-size:16px;
+font-weight:bold;
+text-decoration:none;
+color:#c3c3c3;
+}
+footer li a:hover{
+color:white;
+}
+.submenu{
+display:none;
+transform:translet (-50%, 0);
+text-align:center;
+position:absolute;
+background-color:#549DA0;
+min-width:160px;
+border-radius:5px;
+box-shadow:0px 16px 8px 0
+rgb(0,0,0,0.2);
+}
+.submenu a{
+color:white;
+padding:12px 16px;
+text-decoration:none;
+display:block;
+}
+.submenu a:hover{
+background-color:#468486;
+}
+
+@media screen and (max-width:600px){
+body{
+background-color:silver;
+font-family: "Times New Roman", Times, serif;
+}
+h4{
+font-weight:lighter;
+}
+}
+
+@media screen and (max-width:480px){
+html{
+font-family:"Garamond", "Times New Roman", "Times", "Serif", Sans-Serif", "Helvetica";
+}
+.submenu {
+width:100%;
+position:relative;
+display:none;
+}
+ .btn 	{
+display:block;
+font-size:18px;
+		}
+.container h1 {
+font-style:Florence, cursive;
+font-size:32px;
+margin:0 0 8px 0;
+}
+h2 {
+font-style:serif;
+font-size:18px;
+}
+section {
+padding:25px 0 15px 0;
+}
+
+.features {
+width:100%;
+display:flex;
+align-items:center;
+justify-content:center;
+text-align:left;
+margin:0 0 5px 0;
+font-size:16px;
+}
+.features img {
+width:10%;
+min-width:20px;
+margin-right:20px;
+border-radius:5px;
+
+}
+.quote{
+margin:30px 0;
+width:100%;
+}
+.font{
+font-weight:bold;
+}
+.container p:nth-child(2){
+float:right;
+position:relative;
+top:-53px;
+}
+.skillbox{
+background:black;
+padding:2px;
+box-sizing:border-box;
+border:1px solid green;
+border-radius:2px;
+}
+.skill-level{
+background:blue;
+width:100%;
+height:8px;
+}
+footer{
+padding: 20px 0 25px 0;
+}
+footer li{
+text-align:left;
+display:block;
+margin:5px 0;
+}
+}

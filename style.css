@@ -1,0 +1,161 @@
+.xback a{
+position:relative;
+top:-10px;
+right:5px;
+text-decoration:none;
+color:black;
+float:right;
+font-weight:bold;
+font-size:30px;
+}
+
+p { 
+letter-spacing:-1px;
+text-indent:10px;
+color:black;
+font-size:15px;
+text-align:left;
+margin-left:5px;
+}
+
+t.p2{
+color:black;
+font-size:small;
+
+}
+p1{
+font-size:16px;
+text-transform:uppercase;
+font-style:bold;
+text-shadow: 5px 2px 4px red;
+}
+
+em {
+text-align:center;
+vertical-align:middle;
+text-shadow: 5px 2px 4px orange;
+color:black;
+font-weight:bold;
+font-family:Italic, "Times New Roman", Arial;
+}
+header {
+position:none;
+text-transform:capitalize;
+text-align:center;
+vertical-align:middle;
+font-style:bold;
+font-size:130%;
+font-style:bold;
+background-color:grey;
+margin-right:10px;
+width:96%;
+height:7%;
+border-radius:50%;
+box-shadow:5px 5px 5px 5px DarkBlue, inset 2px 2px 2px 2px LightBlue;
+}
+header.ani {
+padding:20px 0 0 0;
+animation:example 5s ease-in 2s infinite reverse;
+}
+@keyframes example {
+   0%  {background-color: red;}
+   25% {background-color:orange; }
+   50%  {background-color: yellow;}
+   75%  {background-color: blue;}
+   100% {background-color: green;}
+}
+div.scroll {
+float:none;
+width:100%;
+height:50%;
+overflow:scroll;
+background-color:LightBlue;
+}
+#body {
+background-image:url("none");
+background-color:#808000;
+}
+
+#img, img {
+
+filter:brightness(115%) drop-shadow(-3px 2px 5px black);
+float:left;
+margin-top:5px;
+margin-bottom:5px;
+margin-right:10px;
+border-radius:50%;
+height:140px;
+width:140px;
+transform:translate3d(1px, 5px, 10px);
+}
+
+h2{
+float:left;
+padding:5px;
+letter-spacing:-1px;
+text-indent:30px;
+text-align:justify;
+margin-top:10px;
+margin-left:10px;
+}
+nav {
+height:20px;
+width:150px;
+margin-right:20px;
+padding-right:20px;
+font-size:15px;
+position:absolute;
+right:-50px;
+}
+caption{
+caption-side:top;
+}
+td, tr {
+vertical-align:middle;
+text-align:center;
+border:1px solid black;
+}
+table{
+border-collapse:separate;
+border:1px solid black;
+table-layout:auto;
+}
+td2, tr2 {
+vertical-align:middle;
+text-align:justify;
+}
+table2{
+border-collapse:separate;
+table-layout:auto;
+}
+p.css{
+text-indent:-10px;
+text-transform:uppercase;
+text-shadow:5px 2px 5px grey;
+margin-top:5px;
+text-align:center;
+vertical-align:middle;
+font-size:10px;
+}
+a:active {
+color:black;
+}
+a:hover {
+color:red;
+}
+
+@media screen (max-width: 600px){
+#body{
+width:100%;
+}
+.xback a{
+position:relative;
+top:-10px;
+right:5px;
+text-decoration:none;
+color:black;
+float:right;
+font-weight:bold;
+font-size:30px;
+}
+}
